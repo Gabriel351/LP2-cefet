@@ -20,6 +20,7 @@ public class InsereActivity extends AppCompatActivity {
         Button botao = (Button) findViewById(R.id.butSalvar);
 
         botao.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick (View v) {
                 BancoController crud = new BancoController(getBaseContext());
                 EditText titulo = (EditText) findViewById(R.id.editTitulo);

@@ -27,8 +27,8 @@
             android:layout_height="wrap_content"
             android:onClick="abreInsercao"
             android:text="Cadastrar"
-            tools:layout_editor_absoluteX="Odp"
-            tools:layout_editor_absoluteY="Odp" />
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
 
         <Button
             android:id="@+id/butCosultar"
@@ -36,16 +36,16 @@
             android:layout_height="wrap_content"
             android:onClick="abreConsulta"
             android:text="Consultar"
-            tools:layout_editor_absoluteX="Odp"
-            tools:layout_editor_absoluteY="Odp" />
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
 
         <Button
             android:id="@+id/butApagar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Apagar"
-            tools:layout_editor_absoluteY="Odp"
-            tools:layout_editor_absoluteX="Odp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp"
             />
     </LinearLayout>
 
